@@ -1,4 +1,4 @@
-# Nature Export - Fresh Vegetables & Fruits Export 🥦🍎
+# Nature Export - Fresh Vegetables & Fruits Export 
 
 A comprehensive e-commerce platform dedicated to exporting organic agricultural produce, built using **React.js** and **Vite**.
 
