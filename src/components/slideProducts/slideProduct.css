@@ -1,76 +1,91 @@
 :root{
-    --main_color: #0090f0;
-    --p_color: #7b7b7b;
-    --bg_color: #F3F3F3;
+    --main_color: #27ae60;
+    --secondary_color: #2ecc71;
+    --p_color: #555;
+    --bg_color: #f4f7f6;
     --white_color: #fff;
-    --color_heading: #253237;
-    --border_color: #d6d6d6d5;
+    --color_heading: #1a2a1f;
+    --border_color: #e0e0e0;
   }
 
   .slide_products{
-    padding: 50px 0;
+    padding: 60px 0;
   }
+  
   .top_slide{
     position: relative;
-    margin-bottom: 20px;
-    border-bottom: 1px solid var(--border_color);
-    padding: 15px 20px 20px 0;
+    margin-bottom: 40px;
+    border-bottom: 2px solid var(--border_color);
+    padding: 15px 0 20px 0;
   }
 
   .top_slide::after{
     content: '';
     position: absolute;
-    bottom: -1px;
-    width: 100px;
-    height: 2px;
+    bottom: -2px;
+    width: 80px;
+    height: 4px;
     background: var(--main_color);
+    border-radius: 10px;
   }
+  
   .top_slide h2{
-    font-size: 30px;
-    color: var(--main_color);
-    margin-bottom: 10px;
+    font-size: 32px;
+    color: var(--color_heading);
+    margin-bottom: 5px;
     text-transform: capitalize;
+    font-weight: 800;
   }
-
-
 
   /* product */ 
 
-
   .product{
-    width: 250px;
+    width: 100%;
+    max-width: 300px;
     background: var(--white_color);
-    padding: 25px 15px;
+    padding: 20px;
     border: 1px solid var(--border_color);
-    transition: 0.3s;
-    border-radius: 5px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.02);
   }
+  
   .product:hover{
     border-color: var(--main_color);
-    box-shadow: 10px 10px 15px #94949429;
+    box-shadow: 0 15px 35px rgba(39, 174, 96, 0.1);
+    transform: translateY(-10px);
   }
 
   .product .img_product{
     position: relative;
-    height: 180px;
-    padding: 0 20px;
-
+    height: 200px;
+    background-color: var(--bg_color);
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    overflow: hidden;
   }
 
   .product .img_product img{
-    height: 160px;
-    width: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transition: 0.5s;
+  }
+
+  .product:hover .img_product img {
+    transform: scale(1.1);
   }
 
   .product .name_product{
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     color: var(--color_heading);
+    font-size: 18px;
+    font-weight: 700;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -79,25 +94,87 @@
   }
 
   .product .stars{
-    margin: 15px 0;
+    margin: 10px 0;
     display: flex;
-    gap: 5px;
+    gap: 3px;
   }
 
   .product .stars svg{
-    fill: #f8d941;
-    font-size: 18px;
+    fill: #f1c40f;
+    font-size: 14px;
   }
 
   .product .price{
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 800;
+    font-size: 22px;
+    color: var(--main_color);
+  }
+
+  .product .price span {
+    color: var(--main_color);
   }
 
   .product .icons{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 20px;
+    right: -50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.3s;
+    z-index: 10;
+  }
+
+  .product:hover .icons {
+    right: 15px;
+  }
+
+  .product .icons span {
+    width: 40px;
+    height: 40px;
+    background-color: var(--white_color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.3s;
+    color: var(--color_heading);
+  }
+
+  .product .icons span:hover {
+    background-color: var(--main_color);
+    color: var(--white_color);
+  }
+
+  .product .icons .in-fav {
+    color: #e74c3c;
+  }
+
+  .product .status_cart {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: var(--main_color);
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: 0.3s;
+  }
+
+  .product.in-cart .status_cart {
+    opacity: 1;
+    transform: translateX(0);
+  }
     display: flex;
     flex-direction: column;
     right: -50px;

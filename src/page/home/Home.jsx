@@ -7,12 +7,12 @@ import SlideProductLoading from "../../components/slideProducts/SlideProductLoad
 import PageTransition from "../../components/PageTransition";
 
 const categories = [
-  "smartphones",
-  "mobile-accessories",
-  "laptops",
-  "tablets",
-  "sunglasses",
-  "sports-accessories",
+  "groceries",
+  "kitchen-accessories",
+  "home-decoration",
+  "beauty",
+  "fragrances",
+  "skin-care",
 ];
 
 function Home() {

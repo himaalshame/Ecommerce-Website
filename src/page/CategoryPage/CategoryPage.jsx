@@ -31,10 +31,9 @@ function CategoryPage() {
       ) : (
         <div className="container">
           <div className="top_slide">
-            <h2>{category} : {categoryProducts.limit}</h2>
+            <h2>{category.charAt(0).toUpperCase() + category.slice(1)} Products</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Molestias, voluptates?
+              Explore our wide range of fresh and high-quality {category} directly from our organic farms.
             </p>
           </div>
 

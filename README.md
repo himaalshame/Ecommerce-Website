@@ -1,16 +1,49 @@
-# React + Vite
+# Nature Export - Fresh Vegetables & Fruits Export 🥦🍎
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive e-commerce platform dedicated to exporting organic agricultural produce, built using **React.js** and **Vite**.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
+- **Product Browsing:** View products by various categories (groceries, fruits, etc.).
+- **Search System:** Efficiently search for specific products.
+- **Shopping Cart:** Add products, manage quantities, and calculate total price.
+- **Favorites List:** Save your favorite products for easy access later.
+- **Product Details:** Dedicated pages for each product with images, descriptions, and pricing.
+- **Responsive Design:** Modern and user-friendly UI that works seamlessly across all devices.
+- **Smooth Animations:** Integrated with `framer-motion` for professional transitions and a better user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- **React 19**: For building the user interface.
+- **Vite**: For a fast development environment and build process.
+- **React Router Dom**: For managing navigation and routing.
+- **Context API**: For global state management (Cart & Favorites).
+- **Framer Motion**: For smooth animations and transitions.
+- **React Icons**: For a wide variety of UI icons.
+- **React Hot Toast**: For interactive notifications.
+- **Swiper**: For responsive product sliders and image galleries.
 
-## React Compiler
+## 📁 Project Structure
+- `src/components`: Reusable components (Header, Footer, Product, etc.).
+- `src/page`: Main application pages (Home, Cart, Favorites, etc.).
+- `src/context`: State management (CartContext).
+- `src/img`: Visual assets and images.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Local Setup
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/himaalshame/ecommerce.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📝 Notes
+This project uses `dummyjson.com` as a temporary data source, customized with a unique UI to match the identity of a natural produce export company.
+
+---
+**Developed by: [Ibrahim]**

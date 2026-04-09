@@ -1,0 +1,162 @@
+.footer {
+  background-color: #1a2a1f;
+  color: #fff;
+  padding: 80px 0 20px;
+  margin-top: 100px;
+}
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.footer_about .footer_logo img {
+  width: 150px;
+  margin-bottom: 20px;
+  filter: brightness(0) invert(1); /* If logo is dark, make it white */
+}
+
+.footer_about p {
+  color: #bdc3c7;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.social_links {
+  display: flex;
+  gap: 15px;
+}
+
+.social_links a {
+  width: 35px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.social_links a:hover {
+  background-color: var(--main_color);
+  transform: translateY(-5px);
+}
+
+.footer_grid h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.footer_grid h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 40px;
+  height: 2px;
+  background-color: var(--main_color);
+}
+
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_links ul li {
+  margin-bottom: 12px;
+}
+
+.footer_links ul li a {
+  color: #bdc3c7;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer_links ul li a:hover {
+  color: var(--main_color);
+  padding-left: 10px;
+}
+
+.contact_item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.contact_item svg {
+  color: var(--main_color);
+  font-size: 18px;
+}
+
+.contact_item p {
+  color: #bdc3c7;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer_newsletter p {
+  color: #bdc3c7;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.newsletter_form {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter_form input {
+  flex: 1;
+  padding: 12px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 14px;
+}
+
+.newsletter_form button {
+  padding: 12px 20px;
+  background-color: var(--main_color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.newsletter_form button:hover {
+  background-color: var(--secondary_color);
+}
+
+.footer_bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer_bottom p {
+  color: #7f8c8d;
+  font-size: 13px;
+}
+
+@media (max-width: 1024px) {
+  .footer_grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer_grid {
+    grid-template-columns: 1fr;
+  }
+}

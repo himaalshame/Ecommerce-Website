@@ -167,7 +167,7 @@ header{
     padding: 0 25px;
 }
 .btm_header .nav_links li.active{
-    background: #0079ca;
+    background: var(--secondary_color);
 }
 .btm_header .nav_links li a{
     color: var(--white_color);

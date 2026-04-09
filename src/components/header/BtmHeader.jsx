@@ -7,10 +7,10 @@ import { FaUserPlus } from "react-icons/fa6";
 
 
 const NavLinks = [
-  {title: "Home" , link : "/"},
+  { title: "Home", link: "/" },
+  { title: "Groceries", link: "/category/groceries" },
+  { title: "Beauty", link: "/category/beauty" },
   { title: "About", link: "/about" },
-  { title: "Accessories", link: "/accessories" },
-  { title: "Blog", link: "/blog" },
   { title: "Contact", link: "/contact" },
 ]
 

@@ -38,9 +38,8 @@ function SearchResults() {
            
                 <div className="container">
                   <div className="top_slide">
-                    <h2>
-                      Results for : {query}
-                    </h2>
+                    <h2>Search Results for: "{query}"</h2>
+                    <p>We found {results.length} products matching your search.</p>
                   </div>
       
                   <div className="products">
@@ -50,7 +49,14 @@ function SearchResults() {
                   </div>
                 </div>
             
-        ) : <div className="container"><p>No Results found.</p></div>}
+        ) : (
+          <div className="container">
+            <div className="top_slide">
+              <h2>No Results Found</h2>
+              <p>We couldn't find any products matching "{query}". Try searching for something else like "apple", "milk", or "organic".</p>
+            </div>
+          </div>
+        )}
       </div>
     </PageTransition>
   );
