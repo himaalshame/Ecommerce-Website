@@ -1,0 +1,52 @@
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import Product from "../../components/slideProducts/Product";
+import "./categorypage.css";
+import SlideProductLoading from "../../components/slideProducts/SlideProductLoading";
+import PageTransition from "../../components/PageTransition";
+
+function CategoryPage() {
+  const { category } = useParams();
+
+  const [categoryProducts, setCategoryProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch(`https://dummyjson.com/products/category/${category}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setCategoryProducts(data.products || []);
+      })
+      .catch((error) => console.error(error))
+      .finally(() => setLoading(false));
+  }, [category]);
+
+  console.log(categoryProducts);
+
+  return (
+    <PageTransition key={category}>
+        <div className="category_products">
+      {loading ? (
+        <SlideProductLoading key={category} />
+      ) : (
+        <div className="container">
+          <div className="top_slide">
+            <h2>{category.charAt(0).toUpperCase() + category.slice(1)} Products</h2>
+            <p>
+              Explore our wide range of fresh and high-quality {category} directly from our organic farms.
+            </p>
+          </div>
+
+          <div className="products">
+            {categoryProducts.map((item, index) => (
+              <Product item={item} key={index} />
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+    </PageTransition>
+  );
+}
+
+export default CategoryPage;
