@@ -1,6 +1,18 @@
-# Nature Export - Fresh Vegetables & Fruits Export 
+# Nature Export - Fresh Vegetables & Fruits Export 🥦🍎
 
 A comprehensive e-commerce platform dedicated to exporting organic agricultural produce, built using **React.js** and **Vite**.
+
+## Links
+- **GitHub Repository:** [View Repository](https://github.com/himaalshame/ecommerce)
+- **Live Demo:** [Open Website](https://himaalshame.github.io/ecommerce/#/)
+
+## Screenshots
+- Add 2-3 project screenshots here for a stronger portfolio presentation.
+- Recommended views: `Home Page`, `Product Details`, and `Cart Page`.
+- Example image paths after adding screenshots:
+  - `./screenshots/home-page.png`
+  - `./screenshots/product-details.png`
+  - `./screenshots/cart-page.png`
 
 ## 🚀 Key Features
 - **Product Browsing:** View products by various categories (groceries, fruits, etc.).
