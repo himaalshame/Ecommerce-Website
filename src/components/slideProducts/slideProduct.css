@@ -175,12 +175,6 @@
     opacity: 1;
     transform: translateX(0);
   }
-    display: flex;
-    flex-direction: column;
-    right: -50px;
-    gap: 10px;
-    transition: 0.3s;
-  }
   .product:hover .icons{
     right: 20px;
   }
