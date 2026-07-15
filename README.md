@@ -6,7 +6,7 @@ A comprehensive e-commerce platform dedicated to exporting organic agricultural 
 =======
 - **Live Demo:** [Open Website]([ecommerce-website-th2x.vercel.app](https://ecommerce-website-th2x.vercel.app/))
 
->>>>>>> be7d8c9239952231d92c4e69de61e5a9271a06cd
+>>>>>>
 
 ## 🚀 Key Features
 - **Product Browsing:** View products by various categories (groceries, fruits, etc.).
