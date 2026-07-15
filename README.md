@@ -1,12 +1,10 @@
 <<<<<<< HEAD
 # Nature Export - Fresh Vegetables & Fruits Export 🥦🍎
 =======
-# Nature Export - Fresh Vegetables & Fruits Export 
->>>>>>> be7d8c9239952231d92c4e69de61e5a9271a06cd
 
 A comprehensive e-commerce platform dedicated to exporting organic agricultural produce, built using **React.js** and **Vite**.
 =======
-- **Live Demo:** [Open Website](ecommerce-website-th2x.vercel.app)
+- **Live Demo:** [Open Website]([ecommerce-website-th2x.vercel.app](https://ecommerce-website-th2x.vercel.app/))
 
 >>>>>>> be7d8c9239952231d92c4e69de61e5a9271a06cd
 
