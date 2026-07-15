@@ -5,17 +5,6 @@
 >>>>>>> be7d8c9239952231d92c4e69de61e5a9271a06cd
 
 A comprehensive e-commerce platform dedicated to exporting organic agricultural produce, built using **React.js** and **Vite**.
-
-## Links
-- **GitHub Repository:** [View Repository]([https://github.com/himaalshame/ecommerce](https://github.com/himaalshame/Ecommerce-Website)
-
-## Screenshots
-- Add 2-3 project screenshots here for a stronger portfolio presentation.
-- Recommended views: `Home Page`, `Product Details`, and `Cart Page`.
-- Example image paths after adding screenshots:
-  - `./screenshots/home-page.png`
-  - `./screenshots/product-details.png`
-  - `./screenshots/cart-page.png`
 =======
 - **Live Demo:** [Open Website](ecommerce-website-th2x.vercel.app)
 
