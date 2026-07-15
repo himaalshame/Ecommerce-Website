@@ -4,7 +4,7 @@
 
 A comprehensive e-commerce platform dedicated to exporting organic agricultural produce, built using **React.js** and **Vite**.
 =======
-- **Live Demo:** [Open Website]([ecommerce-website-th2x.vercel.app](https://ecommerce-website-th2x.vercel.app/))
+- **Live Demo:** [Open Website](ecommerce-website-th2x.vercel.app](https://ecommerce-website-th2x.vercel.app/)
 
 >>>>>>
 
