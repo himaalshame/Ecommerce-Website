@@ -1,11 +1,23 @@
+<<<<<<< HEAD
 import React from "react";
+=======
+import React, { useRef, useState } from "react";
+>>>>>>> be7d8c9239952231d92c4e69de61e5a9271a06cd
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
+<<<<<<< HEAD
 import { Autoplay, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
+=======
+import { Autoplay , Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
+import bannerHero1 from '../img/banner_Hero1.jpg';
+import bannerHero2 from '../img/banner_Hero2.jpg';
+import bannerHero3 from '../img/banner_Hero3.jpg';
+>>>>>>> be7d8c9239952231d92c4e69de61e5a9271a06cd
 
 function HeroSlider() {
   return (
@@ -13,6 +25,7 @@ function HeroSlider() {
       <div className="hero">
         <div className="container">
           <Swiper
+<<<<<<< HEAD
             loop={true}
             autoplay={{
               delay: 3500,
@@ -108,6 +121,57 @@ function HeroSlider() {
                   </svg>
                 </div>
               </div>
+=======
+          loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            pagination={true}
+            modules={[Pagination , Autoplay]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="content">
+                <h4>Introducing the new</h4>
+                <h3>
+                  Microsoft Xbox <br /> 360 Controller{" "}
+                </h3>
+                <p>Windows Xp/10/7/8 Ps3, Tv Box</p>
+                <Link to="/" className="btn">
+                  Shop Now
+                </Link>
+              </div>
+              <img src={bannerHero1} alt="slider hero 1" />
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="content">
+                <h4>Introducing the new</h4>
+                <h3>
+                  Microsoft Xbox <br /> 360 Controller{" "}
+                </h3>
+                <p>Windows Xp/10/7/8 Ps3, Tv Box</p>
+                <Link to="/" className="btn">
+                  Shop Now
+                </Link>
+              </div>
+              <img src={bannerHero2} alt="slider hero 1" />
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="content">
+                <h4>Introducing the new</h4>
+                <h3>
+                  Microsoft Xbox <br /> 360 Controller{" "}
+                </h3>
+                <p>Windows Xp/10/7/8 Ps3, Tv Box</p>
+                <Link to="/" className="btn">
+                  Shop Now
+                </Link>
+              </div>
+              <img src={bannerHero3} alt="slider hero 1" />
+>>>>>>> be7d8c9239952231d92c4e69de61e5a9271a06cd
             </SwiperSlide>
           </Swiper>
         </div>

@@ -1,6 +1,10 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import Logo from "../../img/logo.svg";
+=======
+import Logo from "../../img/logo.png";
+>>>>>>> be7d8c9239952231d92c4e69de61e5a9271a06cd
 import { FaRegHeart } from "react-icons/fa";
 import { TiShoppingCart } from "react-icons/ti";
 import "./header.css";

@@ -213,8 +213,11 @@
         right: 0;
     }
   }
+<<<<<<< HEAD
 
   .checkout .items .item_cart .quantity_control {
+=======
+>>>>>>> be7d8c9239952231d92c4e69de61e5a9271a06cd
     min-width: 40px;
     display: flex;
     justify-content: center;
