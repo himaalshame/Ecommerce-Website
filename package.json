@@ -13,10 +13,6 @@
   },
   "homepage": "https://himaalshame.github.io/ecommerce",
   "dependencies": {
-<<<<<<< HEAD
-    "@esbuild/win32-x64": "^0.28.1",
-=======
->>>>>>> be7d8c9239952231d92c4e69de61e5a9271a06cd
     "framer-motion": "^12.9.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
