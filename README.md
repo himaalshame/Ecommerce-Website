@@ -7,7 +7,7 @@
 A comprehensive e-commerce platform dedicated to exporting organic agricultural produce, built using **React.js** and **Vite**.
 
 ## Links
-- **GitHub Repository:** [View Repository](https://github.com/himaalshame/ecommerce)
+- **GitHub Repository:** [View Repository]([https://github.com/himaalshame/ecommerce](https://github.com/himaalshame/Ecommerce-Website)
 
 ## Screenshots
 - Add 2-3 project screenshots here for a stronger portfolio presentation.
