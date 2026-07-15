@@ -13,9 +13,8 @@
 }
 
 .footer_about .footer_logo img {
-  width: 150px;
+  width: 170px;
   margin-bottom: 20px;
-  filter: brightness(0) invert(1); /* If logo is dark, make it white */
 }
 
 .footer_about p {

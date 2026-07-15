@@ -45,8 +45,7 @@ function Product({item}) {
     addToFavorites(item)
     toast.success(`${item.title} added To favorites`)
     }
-   
-   }
+    }
   
   
   return (

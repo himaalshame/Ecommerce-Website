@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 60" fill="none" role="img" aria-label="Nature Export">
+  <defs>
+    <linearGradient id="ne_leaf" x1="8" y1="8" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2ecc71"/>
+      <stop offset="1" stop-color="#1f9d55"/>
+    </linearGradient>
+  </defs>
+
+  <!-- badge -->
+  <circle cx="30" cy="30" r="26" fill="#e9f9ef"/>
+
+  <!-- leaf -->
+  <path d="M30 9 C 45 19, 45 41, 30 51 C 15 41, 15 19, 30 9 Z" fill="url(#ne_leaf)"/>
+  <path d="M30 13 C 30 26, 30 38, 30 48" stroke="#e9f9ef" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M30 22 L23 27 M30 30 L23 35 M30 22 L37 27 M30 30 L37 35" stroke="#e9f9ef" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- wordmark -->
+  <text x="66" y="30" font-family="'DM Sans','Segoe UI',Arial,sans-serif" font-size="23" font-weight="700" fill="#1a2a1f">Nature</text>
+  <text x="66" y="48" font-family="'DM Sans','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="6" fill="#27ae60">EXPORT</text>
+</svg>

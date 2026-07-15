@@ -19,7 +19,7 @@ function Contact() {
                 <div className="icon_circle"><FaMapMarkerAlt /></div>
                 <div className="info_text">
                   <h3>Our Location</h3>
-                  <p>123 Fresh Way, Cairo, Egypt</p>
+                  <p> Cairo, Egypt</p>
                 </div>
               </div>
 
@@ -35,7 +35,7 @@ function Contact() {
                 <div className="icon_circle"><FaEnvelope /></div>
                 <div className="info_text">
                   <h3>Email Address</h3>
-                  <p>info@nature-export.com</p>
+                  <p>hjsna@gmail.com</p>
                 </div>
               </div>
 

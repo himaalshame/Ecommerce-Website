@@ -55,7 +55,7 @@ function Home() {
           : categories.map((category) => (
               <SlideProduct
                 key={category}
-                data={products[category]}
+                data={products[category] || []}
                 title={category.replace("-", " ")}
               />
             ))}

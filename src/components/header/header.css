@@ -24,7 +24,10 @@ header{
 }
 
 .top_header .logo{
-    width: 100px;
+    width: 150px;
+}
+.top_header .logo img{
+    width: 100%;
 }
 
 .top_header .search_box{

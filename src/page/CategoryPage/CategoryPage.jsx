@@ -15,7 +15,7 @@ function CategoryPage() {
     fetch(`https://dummyjson.com/products/category/${category}`)
       .then((res) => res.json())
       .then((data) => {
-        setCategoryProducts(data);
+        setCategoryProducts(data.products || []);
       })
       .catch((error) => console.error(error))
       .finally(() => setLoading(false));
@@ -38,7 +38,7 @@ function CategoryPage() {
           </div>
 
           <div className="products">
-            {categoryProducts.products.map((item, index) => (
+            {categoryProducts.map((item, index) => (
               <Product item={item} key={index} />
             ))}
           </div>

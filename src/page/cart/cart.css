@@ -213,6 +213,8 @@
         right: 0;
     }
   }
+
+  .checkout .items .item_cart .quantity_control {
     min-width: 40px;
     display: flex;
     justify-content: center;

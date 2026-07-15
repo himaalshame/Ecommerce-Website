@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import BtmHeader from "./components/header/BtmHeader";
 import TopHeader from "./components/header/TopHeader";
 import Home from "./page/home/Home";
@@ -15,6 +15,8 @@ import Contact from "./page/Contact/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  const location = useLocation();
+
   return (
     <>
       <header>
@@ -36,7 +38,7 @@ function App() {
       <ScrollToTop />
 
       <AnimatePresence mode="wait">
-        <Routes>
+        <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/search" element={<SearchResults />} />
@@ -52,5 +54,7 @@ function App() {
     </>
   );
 }
+
+
 
 export default App;
