@@ -8,8 +8,6 @@ A comprehensive e-commerce platform dedicated to exporting organic agricultural 
 
 ## Links
 - **GitHub Repository:** [View Repository](https://github.com/himaalshame/ecommerce)
-<<<<<<< HEAD
-- **Live Demo:** [Open Website](https://himaalshame.github.io/ecommerce/#/)
 
 ## Screenshots
 - Add 2-3 project screenshots here for a stronger portfolio presentation.
