@@ -40,7 +40,7 @@ function ProductDetails() {
       })
       .catch((error) => console.error(error))
       .finally(() => setLoadingRelatedProducts(false));
-  }, [product?.category]);
+  }, [product]);
 
 
   if (!product) return <p>Product Not Found</p>;
